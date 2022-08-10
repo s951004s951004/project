@@ -128,7 +128,7 @@ table {
     display: block;
 	width:170px;
 	height:36px;
-	background: url("../images/logo.png") no-repeat;
+	background-image: url(/images/logo.png);
 	text-indent: 101%;
 	overflow: hidden;
 	white-space: nowrap;
@@ -261,7 +261,7 @@ th{
 /*personal information css*/
 
 .form{
-	background: url("../images/back1.png") no-repeat;
+	background-image: url(/images/back.png);
 	width:999px;
 	height:405px;	
 }

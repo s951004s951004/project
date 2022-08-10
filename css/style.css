@@ -1,0 +1,394 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+.warp{
+	font-family: Microsoft JhengHei;
+	width:1024px;
+	margin:0 auto;
+}
+
+/* header css */
+
+.header{
+	background:#f6f6f6;
+	height: 30px;
+	margin:0 3px 0 0;
+	position:relative;
+	top: 0px;
+	z-index: 100;
+}
+
+.header ul{
+	float: right;
+}
+ 
+.header ul li{
+	float: left;
+	margin: 5px;
+}
+
+.header li a{
+	font-size: 18px;
+	text-decoration: none;
+	Cursor:pointer;
+}
+
+.clearfix:after{
+	content:'';
+	display:table;
+	clear:both;
+}
+
+.facebook{
+	border-right: 3px solid #cccccc;
+	padding-right: 8px;
+}
+
+.twitter {
+	padding-right: 8px;
+	color: #00adf0;
+}
+
+.facebook span {
+	color: #45609e;
+}
+  
+.twitter span {
+	color: #00adf0;
+}
+
+/* backgroundPicture CSS */
+
+.headerList{
+	background: white;
+	display:flex;
+	justify-content: space-between;
+	margin-right:3px;
+	position:relative;
+	top: 0px;
+	z-index: 100;
+}
+
+.headerList h1 a{
+	margin-left: 10px;
+	margin-top: 10px;
+    display: block;
+	width:170px;
+	height:36px;
+	background-image: url(/images/logo.png);
+	text-indent: 101%;
+	overflow: hidden;
+	white-space: nowrap;
+	Cursor:pointer;
+}
+
+.headerList .menu{
+	text-align: center;
+	display:flex;
+	padding: 20px 0 20px 20px;
+}
+
+.headerList .menu  a{
+	color:#37dfa7;
+	font-weight: bold;
+	text-align: center;
+	padding:13px;
+	font-size:15px;
+	text-decoration: none;
+}
+
+.headerList .menu a:hover{
+	border-bottom:3px solid #37dfa7; 
+}
+
+.word{
+	position: absolute;
+	bottom:105px;
+	left: 30px;
+	font-size:40px;
+	line-height: 1.5;
+	color:#ffff;
+	font-weight: bold;
+}
+
+.word_background{ 	
+    position: absolute;
+	top: 420px;
+	z-index: 10;
+}
+
+.word .wordTail{
+	font-size: 20px;
+	color: #00cc98;
+}
+
+/* middle list css */
+
+.middle{
+	display:flex;
+	justify-content: space-evenly;
+	margin-bottom: 35px;
+}
+
+.course{
+	width:300px;
+	border-left:1px solid #E0E0E0;
+	border-right:1px solid #E0E0E0;
+	border-bottom:1px solid #E0E0E0;
+	box-shadow: 0 1px 3px gray;
+	padding: 20px 5px 0 5px;
+
+}
+
+.course img{
+	display: block;
+	margin:0 auto;
+	height: 139px;
+}
+
+.design img{
+	padding-top: 20px;
+}
+
+.middle h2{
+	padding-top: 20px;
+	text-align: center;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.middle p{
+	line-height: 1.5;
+	padding:10px 15px 10px 15px;
+}
+
+.course ul li{
+	margin-left: 40px;
+	list-style: disc;
+}
+
+/*project differences css*/
+
+h3{
+	font-size: 30px;
+	text-align: center;
+	padding:30px 0 30px 0;
+	font-weight: bold;
+}
+
+table {
+	margin-left:50px;
+	margin-bottom:60px;
+}
+
+th,
+td{
+	border-top: 1px solid #E0E0E0;
+	border-bottom: 1px solid #E0E0E0;
+	font-size:20px;
+	text-align: left;
+	padding:10px 70px 10px 20px;
+}
+
+th{
+	background: #f7f7f7;
+	font-weight: bold;
+}
+
+
+.good{
+	font-weight: bold;
+	color:#37dfa7;
+}
+
+.good:hover{
+	color:red;
+}
+
+/*personal information css*/
+
+.form{
+	background-image: url(/images/back1.png);
+	width:999px;
+	height:405px;	
+}
+
+.form p{
+	color:white;
+	padding-top:50px;
+	text-align: center;
+	font-size:25px;
+	line-height: 1.5;
+	letter-spacing: 1px;
+}
+
+textarea{
+	margin:20px 0 0 20px;
+	width:460px;
+	height: 245px;
+	border-radius: 10px;
+	margin-bottom: 30px;
+}
+
+.information{
+	margin:10px 20px 0 0;
+	display:flex;
+	flex-direction: column;
+	float: right;
+	position:relative;
+}
+
+label{
+	color:white;
+	padding:10px 0 5px 0;
+
+}
+
+input{
+	border-radius: 5px;
+	width:460px;
+	height: 30px;
+}
+
+.bottom{
+	color:white;
+	font-size: 15px;
+	width: 70px;
+	height: 35px;
+	position: absolute;
+	bottom:-50px;
+	right:0px;
+	background: #00cc98;
+	border-radius: 3px;
+	border: 0px solid #9D9D9D;
+}
+
+.bottom:hover{
+	color:red;
+	font-weight: bold;
+	box-shadow: 0 0 3px blue;
+}
+
+/* footer css */
+
+.footer{
+	margin:15px 10px 0 5px;
+	display:flex;
+	justify-content: space-between;
+	padding-bottom: 30px;
+}
+
+.contact{
+	line-height: 1.5;	
+}
+
+.contact li a{
+	text-decoration: none;
+	color:#d7306e;
+	Cursor:pointer;
+}
+
+.contact li:hover{
+	color:blue;
+	box-shadow: 1px 1px 5px #4EFEB3;
+}
+
+.contact a:hover{
+	color:pink;
+}
+
+/* scroll to top功能 */
+
+.top{
+	position: fixed;
+	right: 0;
+	bottom: 0;
+	 }
+
+/* 下拉選單功能 */
+
+.menu ul{
+    display: none;
+}
+
+.menu a:hover,
+.menu a.active{
+    background: white;
+    color:#37dfa7;
+}
+
+.dropdownopen,
+.testdownopen{
+	position: absolute;
+}
+
+.dropdownopen > li{
+	padding-top: 30px;
+	padding-left: 15px;
+}
+
+.testdownopen > li{
+	width: 105px;
+	padding-top: 30px;
+	padding-right: 20px;
+}
+
+/* Swiper 效果 */
+.swiper{
+	width:1024px;
+	height: 560px;
+	margin-bottom: 65px;
+}

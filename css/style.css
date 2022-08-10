@@ -261,7 +261,7 @@ th{
 /*personal information css*/
 
 .form{
-	background-image: url(../images/back.png);
+	background:linear-gradient(#00654a,#009972);
 	width:999px;
 	height:405px;	
 }

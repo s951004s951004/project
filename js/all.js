@@ -27,7 +27,6 @@ $(document).ready(function(){
       // Optional parameters
       loop: true,
       allowTouchMove:true,
-      effect:'cube',
     
       // If we need pagination
       pagination: {

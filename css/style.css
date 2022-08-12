@@ -315,9 +315,8 @@ input{
 	font-size: 15px;
 	width: 70px;
 	height: 35px;
-	position: absolute;
-	bottom:-50px;
-	right:0px;
+	align-self: flex-end;
+	margin-top: 10px;
 	background: #00cc98;
 	border-radius: 3px;
 	border: 0px solid #9D9D9D;

@@ -60,6 +60,11 @@ table {
 	margin:0 auto;
 }
 
+.clearfix {
+	clear: both;
+  }
+  
+
 /* header css */
 
 .header{

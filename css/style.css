@@ -29,6 +29,7 @@ footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 body {
+	font-family: 'Microsoft JhengHei',sans-serif;
 	line-height: 1;
 }
 ol, ul {
@@ -55,7 +56,6 @@ table {
 }
 
 .warp{
-	font-family: Microsoft JhengHei;
 	width:1024px;
 	margin:0 auto;
 }

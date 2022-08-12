@@ -11,14 +11,10 @@ $(document).ready(function(){
   
     $(".dropdown").click(function(event){
       event.preventDefault()
-      $(".dropdown").toggleClass("active");
-      $(".dropdownopen").slideToggle(3000);
-    })
-  
-    $(".testdown").click(function(event){
-      event.preventDefault()
-      $(".testdown").toggleClass("active");
-      $(".testdownopen").slideToggle(3000);
+      $(this).toggleClass("active");
+      $(this).siblings("ul").slideToggle(3000);
+      $(this).parent().siblings().find("ul").slideUp(3000);
+      $(this).parent().siblings().find("a").removeClass();
     })
   
     //swiper

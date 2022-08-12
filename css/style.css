@@ -381,11 +381,11 @@ input{
 }
 
 .dropdownopen > li{
-	width: 105px;
-	padding-top: 20px;
-	padding-left: 15px;
+	width: 80px;
 	display: flex;
+	justify-content: center;
 	align-items: center;
+	padding-top: 20px;
 }
 
 

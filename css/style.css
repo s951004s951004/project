@@ -376,21 +376,18 @@ input{
     color:#37dfa7;
 }
 
-.dropdownopen,
-.testdownopen{
+.dropdownopen{
 	position: absolute;
 }
 
 .dropdownopen > li{
-	padding-top: 30px;
+	width: 105px;
+	padding-top: 20px;
 	padding-left: 15px;
+	display: flex;
+	align-items: center;
 }
 
-.testdownopen > li{
-	width: 105px;
-	padding-top: 30px;
-	padding-right: 20px;
-}
 
 /* Swiper 效果 */
 .swiper{

@@ -180,9 +180,9 @@ table {
 	color: #00cc98;
 }
 
-/* middle list css */
+/* content list css */
 
-.middle{
+.content{
 	display:flex;
 	justify-content: space-evenly;
 	margin-bottom: 35px;
@@ -208,14 +208,14 @@ table {
 	padding-top: 20px;
 }
 
-.middle h2{
+.content h2{
 	padding-top: 20px;
 	text-align: center;
 	font-size: 20px;
 	font-weight: bold;
 }
 
-.middle p{
+.content p{
 	line-height: 1.5;
 	padding:10px 15px 10px 15px;
 }
